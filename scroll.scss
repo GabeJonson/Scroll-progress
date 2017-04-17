@@ -1,0 +1,11 @@
+$scroll-height: 4px;
+$scroll-color: #f33;
+
+#progress-line {
+  width: 0;
+  height: $scroll-height;
+  background-color: $scroll-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
